@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calificada_2</string>
+    <string name="txt_nombre">Nombres</string>
+    <string name="txt_apellido">Apellidos</string>
+    <string name="check_java">java</string>\n
+    <string name="check_php">php</string>\n
+    <string name="check_python">python</string>\n
+    <string name="check_c">C#</string>\n
+    <string name="check_cc">C++</string>\n
+    <string name="rb_java">java</string>
+    <string name="rb_php">php</string>
+    <string name="rb_python">python</string>
+    <string name="rb_c">C#</string>
+    <string name="rb_cc">C++</string>
+    <string name="tv_resultado">Informacion</string>
+</resources>
