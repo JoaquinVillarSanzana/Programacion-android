@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jvillar.prueba2.AgregarSensor">
+
+    <Button
+        android:id="@+id/btn_sensor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="40dp"
+        android:text="Sensor 1" />
+
+    <Button
+        android:id="@+id/btn_sensor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_sensor1"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="17dp"
+        android:text="Sensor 2" />
+
+    <Button
+        android:id="@+id/btn_sensor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_sensor2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="41dp"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="28dp"
+        android:text="Sensor 3" />
+</RelativeLayout>
