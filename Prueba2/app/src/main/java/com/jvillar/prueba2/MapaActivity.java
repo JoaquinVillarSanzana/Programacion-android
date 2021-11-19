@@ -43,7 +43,6 @@ public class MapaActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng panguipulli = new LatLng(-39.6478831,-72.3434519);
         LatLng temuco = new LatLng(-38.7313285, -72.6040094);
         LatLng valdivia = new LatLng(-39.8175743, -73.2333235);
         LatLng rancagua = new LatLng(-34.1720908, -70.7362821);
@@ -56,7 +55,6 @@ public class MapaActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng viña_del_mar = new LatLng(-33.0376143, -71.5227317);
 
 
-        mMap.addMarker(new MarkerOptions().position(panguipulli).title("Ubicacion actual"));
         mMap.addMarker(new MarkerOptions().position(temuco).title("Santo tomas temuco "));
         mMap.addMarker(new MarkerOptions().position(valdivia).title("Santo tomas valdivia"));
         mMap.addMarker(new MarkerOptions().position(rancagua).title("Santo tomas rancagua"));
@@ -67,8 +65,6 @@ public class MapaActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(arica).title("Santo tomas arica"));
         mMap.addMarker(new MarkerOptions().position(la_serena).title("Santo tomas la serena"));
         mMap.addMarker(new MarkerOptions().position(viña_del_mar).title("Santo tomas viña del mar"));
-
-
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(temuco));
     }
