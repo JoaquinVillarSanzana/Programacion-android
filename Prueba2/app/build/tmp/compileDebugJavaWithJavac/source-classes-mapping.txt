@@ -1,0 +1,18 @@
+com/jvillar/prueba2/databinding/ActivityMapaBinding.java
+ com.jvillar.prueba2.databinding.ActivityMapaBinding
+com/jvillar/prueba2/Sensor.java
+ com.jvillar.prueba2.Sensor
+com/jvillar/prueba2/databinding/ActivityMainBinding.java
+ com.jvillar.prueba2.databinding.ActivityMainBinding
+com/jvillar/prueba2/BuildConfig.java
+ com.jvillar.prueba2.BuildConfig
+com/jvillar/prueba2/Conexion_Sql.java
+ com.jvillar.prueba2.Conexion_Sql
+com/jvillar/prueba2/databinding/AgregarSensorBinding.java
+ com.jvillar.prueba2.databinding.AgregarSensorBinding
+com/jvillar/prueba2/AgregarSensor.java
+ com.jvillar.prueba2.AgregarSensor
+com/jvillar/prueba2/MainActivity.java
+ com.jvillar.prueba2.MainActivity
+com/jvillar/prueba2/MapaActivity.java
+ com.jvillar.prueba2.MapaActivity
